@@ -1,5 +1,5 @@
 <?php 
-function hi(string $name) {
+function hi(string $name):void {
     # No tiene return!
     echo "Hola $name". "<br>";
 };
