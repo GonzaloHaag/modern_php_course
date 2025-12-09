@@ -9,3 +9,18 @@ Content-Type: application/json
   "name": "Pedro",
   "age": 15
 }
+
+
+### PUT
+PUT http://localhost:8000/
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "GONZALO"
+}
+
+
+### DELETE
+DELETE http://localhost:8000?id=1
+Content-Type: application/json
